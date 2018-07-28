@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eurackserver/eurackserver.iml" filepath="$PROJECT_DIR$/eurackserver/eurackserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module1/module1.iml" filepath="$PROJECT_DIR$/module1/module1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudmodule.iml" filepath="$PROJECT_DIR$/springcloudmodule.iml" />
+    </modules>
+  </component>
+</project>
