@@ -12,6 +12,7 @@
         <module>module1</module>
         <module>eurackserver</module>
         <module>mybatiesmodule</module>
+        <module>elasticsearchmodule</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

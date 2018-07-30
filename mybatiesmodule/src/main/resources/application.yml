@@ -32,7 +32,7 @@ spring:
          name: mybatiesmodule
 mybatis:
   mapper-locations: classpath:mapping/*.xml
-  type-aliases-package: com.example.demo.model
+  type-aliases-package: com.jiuling.mybaties.model
 
 eureka:
   client:
