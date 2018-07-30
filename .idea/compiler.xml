@@ -31,10 +31,18 @@
         <processorPath useClasspath="true" />
         <module name="eurackserver" />
       </profile>
+      <profile default="false" name="Annotation profile for mybatiesmodule" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="mybatiesmodule" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurackserver" target="1.8" />
       <module name="module1" target="1.8" />
+      <module name="mybatiesmodule" target="1.8" />
       <module name="springcloudmodule" target="1.8" />
     </bytecodeTargetLevel>
   </component>

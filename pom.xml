@@ -11,6 +11,7 @@
     <modules>
         <module>module1</module>
         <module>eurackserver</module>
+        <module>mybatiesmodule</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
