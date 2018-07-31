@@ -17,6 +17,6 @@ public class JestEsController {
 
     @RequestMapping(value = "addCity")
     public void getUser(){
-         cityESService.saveEntity(new Entity(1l,"tets22"));
+         cityESService.saveEntity(new Entity(4l,"tets123"));
     }
 }

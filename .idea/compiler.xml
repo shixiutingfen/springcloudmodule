@@ -52,8 +52,16 @@
         <processorPath useClasspath="true" />
         <module name="redismodule" />
       </profile>
+      <profile default="false" name="Annotation profile for configservermodule" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="configservermodule" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="configservermodule" target="1.8" />
       <module name="elasticsearchmodule" target="1.8" />
       <module name="eurackserver" target="1.8" />
       <module name="module1" target="1.8" />
