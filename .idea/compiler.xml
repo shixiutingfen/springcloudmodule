@@ -45,12 +45,20 @@
         <processorPath useClasspath="true" />
         <module name="elasticsearchmodule" />
       </profile>
+      <profile default="false" name="Annotation profile for redismodule" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="redismodule" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="elasticsearchmodule" target="1.8" />
       <module name="eurackserver" target="1.8" />
       <module name="module1" target="1.8" />
       <module name="mybatiesmodule" target="1.8" />
+      <module name="redismodule" target="1.8" />
       <module name="springcloudmodule" target="1.8" />
     </bytecodeTargetLevel>
   </component>

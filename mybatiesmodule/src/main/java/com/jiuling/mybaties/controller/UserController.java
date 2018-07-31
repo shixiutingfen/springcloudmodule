@@ -19,5 +19,8 @@ public class UserController {
     public User getUser(){
         return userService.getUserById();
     }
-
+    @RequestMapping(value = "testFeign")
+    public String testFeign(){
+        return "testFeign 8084";
+    }
 }

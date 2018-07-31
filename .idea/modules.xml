@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/eurackserver/eurackserver.iml" filepath="$PROJECT_DIR$/eurackserver/eurackserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/module1/module1.iml" filepath="$PROJECT_DIR$/module1/module1.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatiesmodule/mybatiesmodule.iml" filepath="$PROJECT_DIR$/mybatiesmodule/mybatiesmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redismodule/redismodule.iml" filepath="$PROJECT_DIR$/redismodule/redismodule.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudmodule.iml" filepath="$PROJECT_DIR$/springcloudmodule.iml" />
     </modules>
   </component>

@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/eurackserver/pom.xml" />
         <option value="$PROJECT_DIR$/mybatiesmodule/pom.xml" />
         <option value="$PROJECT_DIR$/elasticsearchmodule/pom.xml" />
+        <option value="$PROJECT_DIR$/redismodule/pom.xml" />
       </list>
     </option>
   </component>
