@@ -59,6 +59,13 @@
         <processorPath useClasspath="true" />
         <module name="configservermodule" />
       </profile>
+      <profile default="false" name="Annotation profile for zuulmodule" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="zuulmodule" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="configservermodule" target="1.8" />
@@ -68,6 +75,7 @@
       <module name="mybatiesmodule" target="1.8" />
       <module name="redismodule" target="1.8" />
       <module name="springcloudmodule" target="1.8" />
+      <module name="zuulmodule" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

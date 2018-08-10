@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/elasticsearchmodule/pom.xml" />
         <option value="$PROJECT_DIR$/redismodule/pom.xml" />
         <option value="$PROJECT_DIR$/configservermodule/pom.xml" />
+        <option value="$PROJECT_DIR$/zuulmodule/pom.xml" />
       </list>
     </option>
   </component>

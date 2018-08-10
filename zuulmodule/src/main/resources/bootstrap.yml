@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: zuulmodule
+server:
+  port: 5555
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8082/eureka/
+  instance:
+    prefer-ip-address: true
+management:
+  security:
+    enabled: false
+zuul:
+  routes:
+    mybatiesmodule:
+      path: /client/**
+      serviceId: mybatiesmodule
+    module1:
+      path: /user/**
+      serviceId: module1
